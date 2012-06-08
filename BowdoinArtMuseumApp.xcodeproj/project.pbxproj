@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F54B2BD91582C6C6008BD144 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54B2BD81582C6C6008BD144 /* UIKit.framework */; };
+		F54B2BDB1582C6C6008BD144 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54B2BDA1582C6C6008BD144 /* Foundation.framework */; };
+		F54B2BDD1582C6C6008BD144 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54B2BDC1582C6C6008BD144 /* CoreGraphics.framework */; };
+		F54B2BE31582C6C6008BD144 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F54B2BE11582C6C6008BD144 /* InfoPlist.strings */; };
+		F54B2BE51582C6C6008BD144 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B2BE41582C6C6008BD144 /* main.m */; };
+		F54B2BE91582C6C7008BD144 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B2BE81582C6C7008BD144 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F54B2BD41582C6C6008BD144 /* BowdoinArtMuseumApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BowdoinArtMuseumApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54B2BD81582C6C6008BD144 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F54B2BDA1582C6C6008BD144 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F54B2BDC1582C6C6008BD144 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F54B2BE01582C6C6008BD144 /* BowdoinArtMuseumApp-Info.plist */ = {isa = PBXFileReference; path = "BowdoinArtMuseumApp-Info.plist"; sourceTree = "<group>"; };
+		F54B2BE21582C6C6008BD144 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F54B2BE41582C6C6008BD144 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F54B2BE61582C6C7008BD144 /* BowdoinArtMuseumApp-Prefix.pch */ = {isa = PBXFileReference; path = "BowdoinArtMuseumApp-Prefix.pch"; sourceTree = "<group>"; };
+		F54B2BE71582C6C7008BD144 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F54B2BE81582C6C7008BD144 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F54B2BD11582C6C6008BD144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54B2BD91582C6C6008BD144 /* UIKit.framework in Frameworks */,
+				F54B2BDB1582C6C6008BD144 /* Foundation.framework in Frameworks */,
+				F54B2BDD1582C6C6008BD144 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F54B2BC91582C6C6008BD144 = {
+			isa = PBXGroup;
+			children = (
+				F54B2BDE1582C6C6008BD144 /* BowdoinArtMuseumApp */,
+				F54B2BD71582C6C6008BD144 /* Frameworks */,
+				F54B2BD51582C6C6008BD144 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F54B2BD51582C6C6008BD144 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F54B2BD41582C6C6008BD144 /* BowdoinArtMuseumApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F54B2BD71582C6C6008BD144 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F54B2BD81582C6C6008BD144 /* UIKit.framework */,
+				F54B2BDA1582C6C6008BD144 /* Foundation.framework */,
+				F54B2BDC1582C6C6008BD144 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F54B2BDE1582C6C6008BD144 /* BowdoinArtMuseumApp */ = {
+			isa = PBXGroup;
+			children = (
+				F54B2BE71582C6C7008BD144 /* AppDelegate.h */,
+				F54B2BE81582C6C7008BD144 /* AppDelegate.m */,
+				F54B2BDF1582C6C6008BD144 /* Supporting Files */,
+			);
+			path = BowdoinArtMuseumApp;
+			sourceTree = "<group>";
+		};
+		F54B2BDF1582C6C6008BD144 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F54B2BE01582C6C6008BD144 /* BowdoinArtMuseumApp-Info.plist */,
+				F54B2BE11582C6C6008BD144 /* InfoPlist.strings */,
+				F54B2BE41582C6C6008BD144 /* main.m */,
+				F54B2BE61582C6C7008BD144 /* BowdoinArtMuseumApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F54B2BD31582C6C6008BD144 /* BowdoinArtMuseumApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54B2BEC1582C6C7008BD144 /* Build configuration list for PBXNativeTarget "BowdoinArtMuseumApp" */;
+			buildPhases = (
+				F54B2BD01582C6C6008BD144 /* Sources */,
+				F54B2BD11582C6C6008BD144 /* Frameworks */,
+				F54B2BD21582C6C6008BD144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BowdoinArtMuseumApp;
+			productName = BowdoinArtMuseumApp;
+			productReference = F54B2BD41582C6C6008BD144 /* BowdoinArtMuseumApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F54B2BCB1582C6C6008BD144 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F54B2BCE1582C6C6008BD144 /* Build configuration list for PBXProject "BowdoinArtMuseumApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F54B2BC91582C6C6008BD144;
+			productRefGroup = F54B2BD51582C6C6008BD144 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F54B2BD31582C6C6008BD144 /* BowdoinArtMuseumApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F54B2BD21582C6C6008BD144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54B2BE31582C6C6008BD144 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F54B2BD01582C6C6008BD144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54B2BE51582C6C6008BD144 /* main.m in Sources */,
+				F54B2BE91582C6C7008BD144 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F54B2BE11582C6C6008BD144 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54B2BE21582C6C6008BD144 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F54B2BEA1582C6C7008BD144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F54B2BEB1582C6C7008BD144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F54B2BED1582C6C7008BD144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BowdoinArtMuseumApp/BowdoinArtMuseumApp-Prefix.pch";
+				INFOPLIST_FILE = "BowdoinArtMuseumApp/BowdoinArtMuseumApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F54B2BEE1582C6C7008BD144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BowdoinArtMuseumApp/BowdoinArtMuseumApp-Prefix.pch";
+				INFOPLIST_FILE = "BowdoinArtMuseumApp/BowdoinArtMuseumApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F54B2BCE1582C6C6008BD144 /* Build configuration list for PBXProject "BowdoinArtMuseumApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54B2BEA1582C6C7008BD144 /* Debug */,
+				F54B2BEB1582C6C7008BD144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54B2BEC1582C6C7008BD144 /* Build configuration list for PBXNativeTarget "BowdoinArtMuseumApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54B2BED1582C6C7008BD144 /* Debug */,
+				F54B2BEE1582C6C7008BD144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F54B2BCB1582C6C6008BD144 /* Project object */;
+}
