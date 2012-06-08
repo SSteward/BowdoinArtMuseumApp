@@ -13,6 +13,29 @@
 		F54B2BE31582C6C6008BD144 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F54B2BE11582C6C6008BD144 /* InfoPlist.strings */; };
 		F54B2BE51582C6C6008BD144 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B2BE41582C6C6008BD144 /* main.m */; };
 		F54B2BE91582C6C7008BD144 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B2BE81582C6C7008BD144 /* AppDelegate.m */; };
+		F54B2BF21582C71B008BD144 /* SplashPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B2BF01582C71B008BD144 /* SplashPageViewController.m */; };
+		F54B2BF31582C71B008BD144 /* SplashPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54B2BF11582C71B008BD144 /* SplashPageViewController.xib */; };
+		F54B2BF61582C762008BD144 /* DataStorageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B2BF51582C762008BD144 /* DataStorageObject.m */; };
+		F54B2BFA1582C78A008BD144 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B2BF81582C78A008BD144 /* HomeViewController.m */; };
+		F54B2BFB1582C78A008BD144 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54B2BF91582C78A008BD144 /* HomeViewController.xib */; };
+		F54B2C071582C7BA008BD144 /* HoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B2BFD1582C7BA008BD144 /* HoursViewController.m */; };
+		F54B2C081582C7BA008BD144 /* HoursViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54B2BFE1582C7BA008BD144 /* HoursViewController.xib */; };
+		F54B2C091582C7BA008BD144 /* FloorPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B2C001582C7BA008BD144 /* FloorPlanViewController.m */; };
+		F54B2C0A1582C7BA008BD144 /* FloorPlanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54B2C011582C7BA008BD144 /* FloorPlanViewController.xib */; };
+		F54B2C0B1582C7BA008BD144 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B2C031582C7BA008BD144 /* ContactViewController.m */; };
+		F54B2C0C1582C7BA008BD144 /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54B2C041582C7BA008BD144 /* ContactViewController.xib */; };
+		F54B2C0D1582C7BA008BD144 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B2C061582C7BA008BD144 /* CustomCell.m */; };
+		F54B2C1B1582C7E3008BD144 /* IntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B2C101582C7E3008BD144 /* IntroductionViewController.m */; };
+		F54B2C1C1582C7E3008BD144 /* IntroductionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54B2C111582C7E3008BD144 /* IntroductionViewController.xib */; };
+		F54B2C1D1582C7E3008BD144 /* ExhibitDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B2C131582C7E3008BD144 /* ExhibitDescriptionViewController.m */; };
+		F54B2C1E1582C7E3008BD144 /* ExhibitDescriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54B2C141582C7E3008BD144 /* ExhibitDescriptionViewController.xib */; };
+		F54B2C1F1582C7E3008BD144 /* ExhibitPieceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B2C161582C7E3008BD144 /* ExhibitPieceTableViewController.m */; };
+		F54B2C201582C7E3008BD144 /* ExhibitPieceTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54B2C171582C7E3008BD144 /* ExhibitPieceTableViewController.xib */; };
+		F54B2C211582C7E3008BD144 /* PieceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B2C191582C7E3008BD144 /* PieceDetailViewController.m */; };
+		F54B2C221582C7E3008BD144 /* PieceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54B2C1A1582C7E3008BD144 /* PieceDetailViewController.xib */; };
+		F54B2C241582C815008BD144 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54B2C231582C815008BD144 /* AVFoundation.framework */; };
+		F54B2C261582C8DD008BD144 /* sunretina.png in Resources */ = {isa = PBXBuildFile; fileRef = F54B2C251582C8DD008BD144 /* sunretina.png */; };
+		F54B2C281582C8E0008BD144 /* sunicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F54B2C271582C8E0008BD144 /* sunicon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +43,46 @@
 		F54B2BD81582C6C6008BD144 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F54B2BDA1582C6C6008BD144 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F54B2BDC1582C6C6008BD144 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F54B2BE01582C6C6008BD144 /* BowdoinArtMuseumApp-Info.plist */ = {isa = PBXFileReference; path = "BowdoinArtMuseumApp-Info.plist"; sourceTree = "<group>"; };
+		F54B2BE01582C6C6008BD144 /* BowdoinArtMuseumApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BowdoinArtMuseumApp-Info.plist"; sourceTree = "<group>"; };
 		F54B2BE21582C6C6008BD144 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F54B2BE41582C6C6008BD144 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F54B2BE61582C6C7008BD144 /* BowdoinArtMuseumApp-Prefix.pch */ = {isa = PBXFileReference; path = "BowdoinArtMuseumApp-Prefix.pch"; sourceTree = "<group>"; };
-		F54B2BE71582C6C7008BD144 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F54B2BE61582C6C7008BD144 /* BowdoinArtMuseumApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BowdoinArtMuseumApp-Prefix.pch"; sourceTree = "<group>"; };
+		F54B2BE71582C6C7008BD144 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F54B2BE81582C6C7008BD144 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F54B2BEF1582C71B008BD144 /* SplashPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashPageViewController.h; sourceTree = "<group>"; };
+		F54B2BF01582C71B008BD144 /* SplashPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashPageViewController.m; sourceTree = "<group>"; };
+		F54B2BF11582C71B008BD144 /* SplashPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashPageViewController.xib; sourceTree = "<group>"; };
+		F54B2BF41582C762008BD144 /* DataStorageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStorageObject.h; sourceTree = "<group>"; };
+		F54B2BF51582C762008BD144 /* DataStorageObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStorageObject.m; sourceTree = "<group>"; };
+		F54B2BF71582C78A008BD144 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F54B2BF81582C78A008BD144 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F54B2BF91582C78A008BD144 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		F54B2BFC1582C7BA008BD144 /* HoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoursViewController.h; sourceTree = "<group>"; };
+		F54B2BFD1582C7BA008BD144 /* HoursViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoursViewController.m; sourceTree = "<group>"; };
+		F54B2BFE1582C7BA008BD144 /* HoursViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HoursViewController.xib; sourceTree = "<group>"; };
+		F54B2BFF1582C7BA008BD144 /* FloorPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloorPlanViewController.h; sourceTree = "<group>"; };
+		F54B2C001582C7BA008BD144 /* FloorPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloorPlanViewController.m; sourceTree = "<group>"; };
+		F54B2C011582C7BA008BD144 /* FloorPlanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FloorPlanViewController.xib; sourceTree = "<group>"; };
+		F54B2C021582C7BA008BD144 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		F54B2C031582C7BA008BD144 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		F54B2C041582C7BA008BD144 /* ContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
+		F54B2C051582C7BA008BD144 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		F54B2C061582C7BA008BD144 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		F54B2C0F1582C7E3008BD144 /* IntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroductionViewController.h; sourceTree = "<group>"; };
+		F54B2C101582C7E3008BD144 /* IntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroductionViewController.m; sourceTree = "<group>"; };
+		F54B2C111582C7E3008BD144 /* IntroductionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroductionViewController.xib; sourceTree = "<group>"; };
+		F54B2C121582C7E3008BD144 /* ExhibitDescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExhibitDescriptionViewController.h; sourceTree = "<group>"; };
+		F54B2C131582C7E3008BD144 /* ExhibitDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExhibitDescriptionViewController.m; sourceTree = "<group>"; };
+		F54B2C141582C7E3008BD144 /* ExhibitDescriptionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExhibitDescriptionViewController.xib; sourceTree = "<group>"; };
+		F54B2C151582C7E3008BD144 /* ExhibitPieceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExhibitPieceTableViewController.h; sourceTree = "<group>"; };
+		F54B2C161582C7E3008BD144 /* ExhibitPieceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExhibitPieceTableViewController.m; sourceTree = "<group>"; };
+		F54B2C171582C7E3008BD144 /* ExhibitPieceTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExhibitPieceTableViewController.xib; sourceTree = "<group>"; };
+		F54B2C181582C7E3008BD144 /* PieceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceDetailViewController.h; sourceTree = "<group>"; };
+		F54B2C191582C7E3008BD144 /* PieceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieceDetailViewController.m; sourceTree = "<group>"; };
+		F54B2C1A1582C7E3008BD144 /* PieceDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PieceDetailViewController.xib; sourceTree = "<group>"; };
+		F54B2C231582C815008BD144 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F54B2C251582C8DD008BD144 /* sunretina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunretina.png; sourceTree = "<group>"; };
+		F54B2C271582C8E0008BD144 /* sunicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunicon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54B2C241582C815008BD144 /* AVFoundation.framework in Frameworks */,
 				F54B2BD91582C6C6008BD144 /* UIKit.framework in Frameworks */,
 				F54B2BDB1582C6C6008BD144 /* Foundation.framework in Frameworks */,
 				F54B2BDD1582C6C6008BD144 /* CoreGraphics.framework in Frameworks */,
@@ -45,6 +103,9 @@
 		F54B2BC91582C6C6008BD144 = {
 			isa = PBXGroup;
 			children = (
+				F54B2C271582C8E0008BD144 /* sunicon.png */,
+				F54B2C251582C8DD008BD144 /* sunretina.png */,
+				F54B2C231582C815008BD144 /* AVFoundation.framework */,
 				F54B2BDE1582C6C6008BD144 /* BowdoinArtMuseumApp */,
 				F54B2BD71582C6C6008BD144 /* Frameworks */,
 				F54B2BD51582C6C6008BD144 /* Products */,
@@ -74,6 +135,26 @@
 			children = (
 				F54B2BE71582C6C7008BD144 /* AppDelegate.h */,
 				F54B2BE81582C6C7008BD144 /* AppDelegate.m */,
+				F54B2BEF1582C71B008BD144 /* SplashPageViewController.h */,
+				F54B2BF01582C71B008BD144 /* SplashPageViewController.m */,
+				F54B2BF11582C71B008BD144 /* SplashPageViewController.xib */,
+				F54B2BF71582C78A008BD144 /* HomeViewController.h */,
+				F54B2BF81582C78A008BD144 /* HomeViewController.m */,
+				F54B2BF91582C78A008BD144 /* HomeViewController.xib */,
+				F54B2C0E1582C7CD008BD144 /* Home subviews */,
+				F54B2BFC1582C7BA008BD144 /* HoursViewController.h */,
+				F54B2BFD1582C7BA008BD144 /* HoursViewController.m */,
+				F54B2BFE1582C7BA008BD144 /* HoursViewController.xib */,
+				F54B2BFF1582C7BA008BD144 /* FloorPlanViewController.h */,
+				F54B2C001582C7BA008BD144 /* FloorPlanViewController.m */,
+				F54B2C011582C7BA008BD144 /* FloorPlanViewController.xib */,
+				F54B2C021582C7BA008BD144 /* ContactViewController.h */,
+				F54B2C031582C7BA008BD144 /* ContactViewController.m */,
+				F54B2C041582C7BA008BD144 /* ContactViewController.xib */,
+				F54B2C051582C7BA008BD144 /* CustomCell.h */,
+				F54B2C061582C7BA008BD144 /* CustomCell.m */,
+				F54B2BF41582C762008BD144 /* DataStorageObject.h */,
+				F54B2BF51582C762008BD144 /* DataStorageObject.m */,
 				F54B2BDF1582C6C6008BD144 /* Supporting Files */,
 			);
 			path = BowdoinArtMuseumApp;
@@ -88,6 +169,25 @@
 				F54B2BE61582C6C7008BD144 /* BowdoinArtMuseumApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F54B2C0E1582C7CD008BD144 /* Home subviews */ = {
+			isa = PBXGroup;
+			children = (
+				F54B2C0F1582C7E3008BD144 /* IntroductionViewController.h */,
+				F54B2C101582C7E3008BD144 /* IntroductionViewController.m */,
+				F54B2C111582C7E3008BD144 /* IntroductionViewController.xib */,
+				F54B2C121582C7E3008BD144 /* ExhibitDescriptionViewController.h */,
+				F54B2C131582C7E3008BD144 /* ExhibitDescriptionViewController.m */,
+				F54B2C141582C7E3008BD144 /* ExhibitDescriptionViewController.xib */,
+				F54B2C151582C7E3008BD144 /* ExhibitPieceTableViewController.h */,
+				F54B2C161582C7E3008BD144 /* ExhibitPieceTableViewController.m */,
+				F54B2C171582C7E3008BD144 /* ExhibitPieceTableViewController.xib */,
+				F54B2C181582C7E3008BD144 /* PieceDetailViewController.h */,
+				F54B2C191582C7E3008BD144 /* PieceDetailViewController.m */,
+				F54B2C1A1582C7E3008BD144 /* PieceDetailViewController.xib */,
+			);
+			name = "Home subviews";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +241,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F54B2BE31582C6C6008BD144 /* InfoPlist.strings in Resources */,
+				F54B2BF31582C71B008BD144 /* SplashPageViewController.xib in Resources */,
+				F54B2BFB1582C78A008BD144 /* HomeViewController.xib in Resources */,
+				F54B2C081582C7BA008BD144 /* HoursViewController.xib in Resources */,
+				F54B2C0A1582C7BA008BD144 /* FloorPlanViewController.xib in Resources */,
+				F54B2C0C1582C7BA008BD144 /* ContactViewController.xib in Resources */,
+				F54B2C1C1582C7E3008BD144 /* IntroductionViewController.xib in Resources */,
+				F54B2C1E1582C7E3008BD144 /* ExhibitDescriptionViewController.xib in Resources */,
+				F54B2C201582C7E3008BD144 /* ExhibitPieceTableViewController.xib in Resources */,
+				F54B2C221582C7E3008BD144 /* PieceDetailViewController.xib in Resources */,
+				F54B2C261582C8DD008BD144 /* sunretina.png in Resources */,
+				F54B2C281582C8E0008BD144 /* sunicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +264,17 @@
 			files = (
 				F54B2BE51582C6C6008BD144 /* main.m in Sources */,
 				F54B2BE91582C6C7008BD144 /* AppDelegate.m in Sources */,
+				F54B2BF21582C71B008BD144 /* SplashPageViewController.m in Sources */,
+				F54B2BF61582C762008BD144 /* DataStorageObject.m in Sources */,
+				F54B2BFA1582C78A008BD144 /* HomeViewController.m in Sources */,
+				F54B2C071582C7BA008BD144 /* HoursViewController.m in Sources */,
+				F54B2C091582C7BA008BD144 /* FloorPlanViewController.m in Sources */,
+				F54B2C0B1582C7BA008BD144 /* ContactViewController.m in Sources */,
+				F54B2C0D1582C7BA008BD144 /* CustomCell.m in Sources */,
+				F54B2C1B1582C7E3008BD144 /* IntroductionViewController.m in Sources */,
+				F54B2C1D1582C7E3008BD144 /* ExhibitDescriptionViewController.m in Sources */,
+				F54B2C1F1582C7E3008BD144 /* ExhibitPieceTableViewController.m in Sources */,
+				F54B2C211582C7E3008BD144 /* PieceDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
